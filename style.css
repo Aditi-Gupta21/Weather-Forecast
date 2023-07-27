@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+.container {
+    height: 80vh;
+    width: 60vw;
+    border: 3px solid rgb(0, 0, 0);
+    margin: auto auto;
+    box-shadow: 0 0 40px rgba(0, 249, 241, 0.6);
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.057);
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+h1 {
+    font-size: 2rem;
+    color: rgb(126, 222, 236);
+    padding: 10px 200px;
+    margin: 7px 0px;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+form #city-input {
+    font-size: 1rem;
+    width: 74%;
+    height: 30px;
+    margin: 0px 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+}
+
+form #submit {
+    font-size: 1rem;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+form #submit:hover {
+    background-color: rgb(67, 168, 190);
+    color: black;
+    font-size: 1rem;
+}
+
+#weather-data {
+    height: 63vh;
+}
+
+.icon {
+    font-size: large;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icon img {
+    height: 80px;
+    width: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.temperature {
+    font-size: 1.6rem;
+    font-weight: bold;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+.description {
+    font-size: 1.3rem;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgba(0, 249, 241, 0.6) ;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.details {
+    font-size: 1.3rem;
+    height: 30vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.details div {
+    border-right: 1px solid white;
+    width: 20vw;
+    height: 30vh;
+    text-align: center;
+    padding: 90px 0px;
+}
