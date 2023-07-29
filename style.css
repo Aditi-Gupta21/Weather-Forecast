@@ -13,11 +13,11 @@ body {
 }
 
 .container {
-    height: 80vh;
-    width: 60vw;
+    /* height: 80vh; */
+    /* width: 60vw; */
     border: 3px solid rgb(0, 0, 0);
     margin: auto auto;
-    box-shadow: 0 0 40px rgba(0, 249, 241, 0.6);
+    box-shadow: 0 0 10px 5px rgba(0, 249, 241, 0.6);
     color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.057);
     border-radius: 6px;
@@ -26,21 +26,25 @@ body {
 
 h1 {
     font-size: 2rem;
-    color: rgb(126, 222, 236);
+    color: rgb(72, 222, 164);
     padding: 10px 200px;
     margin: 7px 0px;
     text-decoration: underline;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 2px;
     word-spacing: 3px;
+    margin: 10px 0px;
+}
+form{
+    margin: 40px 0px;
 }
 
 form #city-input {
     font-size: 1rem;
-    width: 74%;
+    width: 70%;
     height: 30px;
     margin: 0px 10px;
-    margin-left: 20px;
+    margin-left: 40px;
     padding-left: 20px;
     outline: none;
     border: none;
@@ -61,10 +65,12 @@ form #submit:hover {
 }
 
 #weather-data {
-    height: 63vh;
+    /* height: 63vh; */
+    margin-bottom: 40px;
+    display: none;
 }
 
-.icon {
+#icon {
     font-size: large;
     height: 10vh;
     display: flex;
@@ -73,7 +79,7 @@ form #submit:hover {
     margin-top: 10px;
 }
 
-.icon img {
+#icon img {
     height: 80px;
     width: 80px;
     background-size: contain;
@@ -93,13 +99,13 @@ form #submit:hover {
 
 .description {
     font-size: 1.3rem;
-    height: 13vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:rgba(0, 249, 241, 0.6) ;
+    color:rgb(72, 222, 164) ;
     font-weight: bold;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 .details {
@@ -115,7 +121,8 @@ form #submit:hover {
 .details div {
     border-right: 1px solid white;
     width: 20vw;
-    height: 30vh;
+    height: 20vh;
     text-align: center;
     padding: 90px 0px;
+    margin-bottom: 40px;
 }
